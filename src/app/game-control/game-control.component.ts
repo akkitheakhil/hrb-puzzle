@@ -19,9 +19,11 @@ export class GameControlComponent implements OnInit {
     @Output() clickShuffle = new EventEmitter<any>();
 
     constructor() {
+        
     }
 
     public ngOnInit() {
+        this.levelChange.emit(4);
         this.handleClickOnShuffleBtn();
     }
 

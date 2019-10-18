@@ -9,6 +9,37 @@
   grid-template-areas: "board board" "gallery gallery";
 }
 
+.span-text{
+  margin: 10px 0 0;
+  color: black;
+  font-size: 25pt;
+}
+
+.button {
+  font-size: 16px;
+  margin: 35px 0;
+  padding: 11px 16px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+  display: inline-block;
+  border-width: 3px;
+  border-style: solid;
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  font-size:14px;
+  font-weight:bold;
+  color:#111;
+  border-color:#111;
+  background: 0;
+  text-decoration: none;
+}
+
+.button:hover,  input[type="submit"]:hover {
+  border-color:#82be42;
+  color:#82be42;
+}
+
+
 .game-puzzle-gallery {
   display: flex;
   background-color: #050D1A;

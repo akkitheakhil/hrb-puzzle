@@ -46,6 +46,7 @@ export class GameBoardComponent implements OnInit, AfterContentInit {
         this.tiles$ = this.store.pipe(select(fromPuzzle.getTiles));
         this.gameStats$ = this.store.pipe(select(fromPuzzle.getGameStats));
         this.gameSize$ = this.store.pipe(select(fromPuzzle.getGameSize));
+        
     }
 
     public ngAfterContentInit(): void {
